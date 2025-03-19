@@ -1,3 +1,7 @@
+"""
+Este módulo contém funções para realizar atribuições em um sistema SEI.
+"""
+
 import locale
 import json
 import datetime
@@ -11,7 +15,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
 from functools import wraps
 
 # Configuração inicial do sistema de logs e localização
@@ -19,6 +23,9 @@ locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
 
 # Classe personalizada para formatar logs
 class CustomFormatter(logging.Formatter):
+    """
+    Formata os logs com informações de data, hora e nível de log.
+    """
     def formatTime(self, record, datefmt=None):
         return datetime.datetime.now().strftime('%d/%m/%Y %H:%M')
 
@@ -30,6 +37,16 @@ logging.basicConfig(level=logging.INFO, handlers=[handler])
 
 # Decorador para retentar operações falhas
 def retry_operation(max_attempts=3, delay=1):
+    """
+    Retenta uma operação até que ela seja bem-sucedida ou até que o número máximo de tentativas seja alcançado.
+
+    Args:
+        max_attempts (int): Número máximo de tentativas.
+        delay (int): Tempo de espera entre tentativas em segundos.
+
+    Returns:
+        função decorada
+    """
     def decorator(func):
         @wraps(func)
         def wrapper(*args, **kwargs):
@@ -50,10 +67,22 @@ def retry_operation(max_attempts=3, delay=1):
 
 # Função para registrar mensagens no log e opcionalmente imprimi-las no console
 def log_and_print(message):
+    """
+    Registra uma mensagem no log e a imprime no console.
+
+    Args:
+        message (str): Mensagem a ser registrada e impressa.
+    """
     logging.info(message)
 
 # Configuração do driver do Selenium com opções específicas
 def configurar_driver():
+    """
+    Configura o driver do Selenium com opções específicas para evitar detecção de automação.
+
+    Returns:
+        webdriver: Driver do Selenium configurado.
+    """
     chrome_options = Options()
     chrome_options.add_argument("--headless")  # Executa o navegador em modo headless (sem interface gráfica)
     chrome_options.add_argument("--disable-gpu")  # Desativa a aceleração de GPU
@@ -86,8 +115,30 @@ def configurar_driver():
     })
     return driver
 
+# Função para esperar carregamento da página
+def esperar_carregamento(driver):
+    """
+    Espera até que a página seja carregada completamente.
+
+    Args:
+        driver (webdriver): Driver do Selenium.
+
+    Returns:
+        bool: True se a página foi carregada com sucesso, False caso contrário.
+    """
+    return WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+
 # Trata alertas que aparecem durante a navegação
 def tratar_alerta(driver):
+    """
+    Trata alertas que aparecem durante a navegação.
+
+    Args:
+        driver (webdriver): Driver do Selenium.
+
+    Returns:
+        bool: True se o alerta foi tratado com sucesso, False caso contrário.
+    """
     try:
         alert = driver.switch_to.alert
         alert_text = alert.text
@@ -101,9 +152,21 @@ def tratar_alerta(driver):
 # Realiza o login no sistema com tratamento de erros
 @retry_operation(max_attempts=3, delay=2)
 def fazer_login(driver, url, username, password):
+    """
+    Realiza o login no sistema com tratamento de erros.
+
+    Args:
+        driver (webdriver): Driver do Selenium.
+        url (str): URL do sistema.
+        username (str): Nome de usuário.
+        password (str): Senha.
+
+    Raises:
+        Exception: Se o login falhar.
+    """
     try:
         driver.get(url)
-        WebDriverWait(driver, 15).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        esperar_carregamento(driver)
         usuario_input = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "txtUsuario")))
         usuario_input.clear()
         usuario_input.send_keys(username)
@@ -119,7 +182,7 @@ def fazer_login(driver, url, username, password):
         WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#lnkControleProcessos > img"))).click()
         WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#divFiltro > div:nth-child(1) > a"))).click()
         WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#tblProcessosDetalhado > tbody > tr:nth-child(1) > th:nth-child(6) > div > div:nth-child(2) > a > img"))).click()
-        WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        esperar_carregamento(driver)
         logging.info(f"===== Logs de {obter_data_atual_formatada()} =====")
         logging.info("Iniciando script SEI...")
         logging.info("Login realizado com sucesso")
@@ -129,6 +192,15 @@ def fazer_login(driver, url, username, password):
 
 # Verifica se uma linha não possui atribuição
 def verificar_linha_sem_atribuicao(linha):
+    """
+    Verifica se uma linha não possui atribuição.
+
+    Args:
+        linha (WebElement): Linha da tabela.
+
+    Returns:
+        bool: True se a linha não possui atribuição, False caso contrário.
+    """
     try:
         celulas = linha.find_elements(By.TAG_NAME, "td")
         for celula in celulas:
@@ -142,8 +214,17 @@ def verificar_linha_sem_atribuicao(linha):
 
 # Verifica se está na última página da tabela
 def verificar_ultima_pagina(driver):
+    """
+    Verifica se está na última página da tabela.
+
+    Args:
+        driver (webdriver): Driver do Selenium.
+
+    Returns:
+        bool: True se estiver na última página, False caso contrário.
+    """
     try:
-        elemento = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "lnkInfraProximaPaginaInferior")))
+        elemento = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "lnkInfraProximaPaginaInferior")))
         return False
     except (TimeoutException, NoSuchElementException):
         return True
@@ -151,36 +232,59 @@ def verificar_ultima_pagina(driver):
 # Processa a página atual, verificando termos e realizando ações
 @retry_operation(max_attempts=2, delay=1)
 def processar_pagina_atual(driver, termos_acoes, contadores, contadores_pagina):
+    """
+    Processa a página atual, verificando termos e realizando ações.
+    """
     wait = WebDriverWait(driver, 10)
     wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "table.infraTable")))
+    
     for termo in contadores_pagina:
         contadores_pagina[termo] = 0
+    
     for termo_busca, acao in termos_acoes.items():
         logging.info(f"Procurando por: {termo_busca}")
         xpath_termo = f"//td[text() = '{termo_busca}']"
-        celulas_termo = driver.find_elements(By.XPATH, xpath_termo)
-        for celula in celulas_termo:
-            try:
-                linha = celula.find_element(By.XPATH, "./..")
-                if not verificar_linha_sem_atribuicao(linha):
-                    continue
+        
+        try:
+            # Recarrega os elementos da página atual
+            celulas_termo = driver.find_elements(By.XPATH, xpath_termo)
+            
+            for celula in celulas_termo:
                 try:
-                    checkbox_div = linha.find_element(By.CSS_SELECTOR, "td:first-child div.infraCheckboxDiv")
-                    checkbox = checkbox_div.find_element(By.CSS_SELECTOR, "input[type='checkbox']")
-                    driver.execute_script("arguments[0].scrollIntoView(true);", checkbox)
-                    WebDriverWait(driver, 7).until(lambda d: d.execute_script('return document.readyState') == 'complete')
-                    driver.execute_script("arguments[0].click();", checkbox)
-                    WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
-                    if checkbox.is_selected():
-                        contadores_pagina[termo_busca] += 1
-                    else:
-                        log_and_print(f"Checkbox não foi selecionado para: {termo_busca}")
-                except Exception as e:
-                    log_and_print(f"Erro ao interagir com checkbox: {str(e)}")
+                    linha = celula.find_element(By.XPATH, "./..")
+                    if not verificar_linha_sem_atribuicao(linha):
+                        continue
+                    
+                    try:
+                        checkbox_div = linha.find_element(By.CSS_SELECTOR, "td:first-child div.infraCheckboxDiv")
+                        checkbox = checkbox_div.find_element(By.CSS_SELECTOR, "input[type='checkbox']")
+                        driver.execute_script("arguments[0].scrollIntoView(true);", checkbox)
+                        esperar_carregamento(driver)
+                        driver.execute_script("arguments[0].click();", checkbox)
+                        esperar_carregamento(driver)
+                        
+                        if checkbox.is_selected():
+                            contadores_pagina[termo_busca] += 1
+                        else:
+                            log_and_print(f"Checkbox não foi selecionado para: {termo_busca}")
+                    except StaleElementReferenceException:
+                        log_and_print(f"Elemento obsoleto encontrado para o termo {termo_busca}. Recarregando elementos...")
+                        celulas_termo = driver.find_elements(By.XPATH, xpath_termo)
+                        continue
+                    except Exception as e:
+                        log_and_print(f"Erro ao interagir com checkbox: {str(e)}")
+                        continue
+                except StaleElementReferenceException:
+                    log_and_print(f"Elemento obsoleto encontrado para o termo {termo_busca}. Recarregando elementos...")
+                    celulas_termo = driver.find_elements(By.XPATH, xpath_termo)
                     continue
-            except Exception as e:
-                log_and_print(f"Erro ao processar linha: {str(e)}")
-                continue
+                except Exception as e:
+                    log_and_print(f"Erro ao processar linha: {str(e)}")
+                    continue
+        except Exception as e:
+            log_and_print(f"Erro ao encontrar elementos para o termo {termo_busca}: {str(e)}")
+            continue
+        
         if contadores_pagina[termo_busca] > 0:
             realizar_atribuicao(driver, acao)
             contadores[termo_busca] += contadores_pagina[termo_busca]
@@ -188,28 +292,48 @@ def processar_pagina_atual(driver, termos_acoes, contadores, contadores_pagina):
 # Realiza a atribuição dos itens selecionados
 @retry_operation(max_attempts=2, delay=1)
 def realizar_atribuicao(driver, acao):
+    """
+    Realiza a atribuição dos itens selecionados.
+
+    Args:
+        driver (webdriver): Driver do Selenium.
+        acao (dict): Ação a ser realizada.
+
+    Raises:
+        Exception: Se a atribuição falhar.
+    """
     try:
         logging.info("Iniciando processo de atribuição")
         botao_atributo = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#divComandos > a:nth-child(3) > img")))
         botao_atributo.click()
-        WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        esperar_carregamento(driver)
         logging.info("Botão de atribuição clicado")
         dropdown = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#selAtribuicao")))
         dropdown.click()
-        WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        esperar_carregamento(driver)
         opcao = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, f'//option[text() = "{acao["atributo"]}"]')))
         opcao.click()
-        WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        esperar_carregamento(driver)
         logging.info(f"Opção {acao['atributo']} selecionada")
         botao_salvar = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '#sbmSalvar')))
         botao_salvar.click()
-        WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        esperar_carregamento(driver)
     except Exception as e:
         log_and_print(f"Erro ao realizar atribuição: {str(e)}")
         raise
 
 # Realiza as atribuições em todas as páginas disponíveis
 def realizar_atribuicoes(driver, termos_acoes):
+    """
+    Realiza as atribuições em todas as páginas disponíveis.
+
+    Args:
+        driver (webdriver): Driver do Selenium.
+        termos_acoes (dict): Dicionário de termos e ações.
+
+    Returns:
+        dict: Dicionário de contadores.
+    """
     contadores = {termo: 0 for termo in termos_acoes}
     contadores_pagina = {termo: 0 for termo in termos_acoes}
     pagina_atual = 1
@@ -222,7 +346,7 @@ def realizar_atribuicoes(driver, termos_acoes):
                 break
             proximo_link = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "lnkInfraProximaPaginaInferior")))
             proximo_link.click()
-            WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            esperar_carregamento(driver)
             pagina_atual += 1
         except Exception as e:
             log_and_print(f"Erro ao processar página {pagina_atual}: {str(e)}")
@@ -234,18 +358,30 @@ def realizar_atribuicoes(driver, termos_acoes):
 
 # Retorna a data e hora atual formatada
 def obter_data_atual_formatada():
+    """
+    Retorna a data e hora atual formatada.
+
+    Returns:
+        str: Data e hora atual formatada.
+    """
     locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
     agora = datetime.datetime.now()
     return agora.strftime('%A, %d de %B de %Y, às %H:%M:%S')
 
 # Realiza o logout do sistema
 def fazer_logout(driver):
+    """
+    Realiza o logout do sistema.
+
+    Args:
+        driver (webdriver): Driver do Selenium.
+    """
     try:
         try:
             botao_logout = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#lnkInfraSairSistema > img")))
             botao_logout.click()
             logging.info("Logout realizado com sucesso")
-            WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            esperar_carregamento(driver)
         except TimeoutException:
             logging.warning("Botão de logout não encontrado - usuário possivelmente já deslogado")
     except Exception as e:
@@ -265,15 +401,35 @@ def fazer_logout(driver):
 
 # Verifica se as credenciais estão presentes e válidas
 def verificar_credenciais(url, username, password):
+    """
+    Verifica se as credenciais estão presentes e válidas.
+
+    Args:
+        url (str): URL do sistema.
+        username (str): Nome de usuário.
+        password (str): Senha.
+
+    Raises:
+        ValueError: Se as credenciais forem inválidas.
+    """
     if not url or not isinstance(url, str):
-        raise ValueError("URL inválida ou não encontrada no arquivo .env")
+        raise ValueError("URL inválida ou não encontrada no arquivo.env")
     if not username or not isinstance(username, str):
-        raise ValueError("USERNAME inválido ou não encontrado no arquivo .env")
+        raise ValueError("USERNAME inválido ou não encontrado no arquivo.env")
     if not password or not isinstance(password, str):
-        raise ValueError("PASSWORD inválida ou não encontrada no arquivo .env")
+        raise ValueError("PASSWORD inválida ou não encontrada no arquivo.env")
 
 # Valida o conteúdo do arquivo de termos e ações
 def validar_termos_acoes(termos_acoes):
+    """
+    Valida o conteúdo do arquivo de termos e ações.
+
+    Args:
+        termos_acoes (dict): Dicionário de termos e ações.
+
+    Raises:
+        ValueError: Se o arquivo for inválido.
+    """
     if not isinstance(termos_acoes, dict) or len(termos_acoes) == 0:
         raise ValueError("Arquivo termos_acoes.json vazio ou mal formatado.")
     for termo, acao in termos_acoes.items():
@@ -284,6 +440,9 @@ def validar_termos_acoes(termos_acoes):
 
 # Função principal que coordena a execução do script
 def main():
+    """
+    Função principal que coordena a execução do script.
+    """
     driver = None
     try:
         load_dotenv()
@@ -308,7 +467,7 @@ def main():
         fazer_login(driver, url, username, password)
         contadores = realizar_atribuicoes(driver, termos_acoes)
 
-        # Formatação e apresentação de data
+        # Nova formatação de data
         data_formatada = obter_data_atual_formatada()
         print(f"==== {data_formatada} ====")
 
@@ -316,9 +475,7 @@ def main():
         print("\nResumo das atribuições realizadas:")
         for termo, contador in contadores.items():
             print(f"- {contador} atribuições para '{termo}'")
-        #print("="*50)
         print()
-        
     except Exception as e:
         log_and_print(f"Erro durante a execução: {str(e)}")
         logging.error("Stacktrace completo:", exc_info=True)
