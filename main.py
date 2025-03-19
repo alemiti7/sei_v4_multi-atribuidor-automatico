@@ -66,14 +66,23 @@ def retry_operation(max_attempts=3, delay=1):
     return decorator
 
 # Função para registrar mensagens no log e opcionalmente imprimi-las no console
-def log_and_print(message):
+def log_and_print(message, level=logging.INFO):
     """
-    Registra uma mensagem no log e a imprime no console.
+    Registra uma mensagem no log e a imprime no console (somente para INFO).
 
     Args:
         message (str): Mensagem a ser registrada e impressa.
+        level (int): Nível de log (INFO, WARNING, ERROR, etc.).
     """
-    logging.info(message)
+    if level == logging.INFO:
+        logging.info(message)
+        print(message)  # Imprime a mensagem no console apenas para INFO
+    elif level == logging.WARNING:
+        logging.warning(message)  # Apenas no log, não no console
+    elif level == logging.ERROR:
+        logging.error(message)  # Apenas no log, não no console
+    else:
+        logging.info(message)  # Padrão para INFO se o nível não for reconhecido
 
 # Configuração do driver do Selenium com opções específicas
 def configurar_driver():
@@ -208,8 +217,11 @@ def verificar_linha_sem_atribuicao(linha):
             if elementos_ancora:
                 return False
         return True
+    except StaleElementReferenceException:
+        log_and_print("Elemento obsoleto encontrado. Recarregando elementos...", level=logging.WARNING)
+        return False
     except Exception as e:
-        log_and_print(f"Erro ao verificar linha sem atribuição: {str(e)}")
+        log_and_print(f"Erro ao verificar linha sem atribuição: {str(e)}", level=logging.WARNING)
         return False
 
 # Verifica se está na última página da tabela
@@ -266,23 +278,23 @@ def processar_pagina_atual(driver, termos_acoes, contadores, contadores_pagina):
                         if checkbox.is_selected():
                             contadores_pagina[termo_busca] += 1
                         else:
-                            log_and_print(f"Checkbox não foi selecionado para: {termo_busca}")
+                            log_and_print(f"Checkbox não foi selecionado para: {termo_busca}", level=logging.WARNING)
                     except StaleElementReferenceException:
-                        log_and_print(f"Elemento obsoleto encontrado para o termo {termo_busca}. Recarregando elementos...")
+                        log_and_print(f"Elemento obsoleto encontrado para {termo_busca}. Recarregando elementos...", level=logging.WARNING)
                         celulas_termo = driver.find_elements(By.XPATH, xpath_termo)
                         continue
                     except Exception as e:
-                        log_and_print(f"Erro ao interagir com checkbox: {str(e)}")
+                        log_and_print(f"Erro ao interagir com checkbox: {str(e)}", level=logging.WARNING)
                         continue
                 except StaleElementReferenceException:
-                    log_and_print(f"Elemento obsoleto encontrado para o termo {termo_busca}. Recarregando elementos...")
+                    log_and_print(f"Elemento obsoleto encontrado para {termo_busca}. Recarregando elementos...", level=logging.WARNING)
                     celulas_termo = driver.find_elements(By.XPATH, xpath_termo)
                     continue
                 except Exception as e:
-                    log_and_print(f"Erro ao processar linha: {str(e)}")
+                    log_and_print(f"Erro ao processar linha: {str(e)}", level=logging.WARNING)
                     continue
         except Exception as e:
-            log_and_print(f"Erro ao encontrar elementos para o termo {termo_busca}: {str(e)}")
+            log_and_print(f"Erro ao encontrar elementos para o termo {termo_busca}: {str(e)}", level=logging.WARNING)
             continue
         
         if contadores_pagina[termo_busca] > 0:
@@ -319,7 +331,7 @@ def realizar_atribuicao(driver, acao):
         botao_salvar.click()
         esperar_carregamento(driver)
     except Exception as e:
-        log_and_print(f"Erro ao realizar atribuição: {str(e)}")
+        log_and_print(f"Erro ao realizar atribuição: {str(e)}", level=logging.WARNING)
         raise
 
 # Realiza as atribuições em todas as páginas disponíveis
@@ -349,7 +361,7 @@ def realizar_atribuicoes(driver, termos_acoes):
             esperar_carregamento(driver)
             pagina_atual += 1
         except Exception as e:
-            log_and_print(f"Erro ao processar página {pagina_atual}: {str(e)}")
+            log_and_print(f"Erro ao processar página {pagina_atual}: {str(e)}", level=logging.WARNING)
             if pagina_atual > 1:
                 continue
             else:
@@ -477,7 +489,7 @@ def main():
             print(f"- {contador} atribuições para '{termo}'")
         print()
     except Exception as e:
-        log_and_print(f"Erro durante a execução: {str(e)}")
+        log_and_print(f"Erro durante a execução: {str(e)}", level=logging.ERROR)
         logging.error("Stacktrace completo:", exc_info=True)
     finally:
         if driver:
