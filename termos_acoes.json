@@ -1,14 +1,18 @@
 {
-    "Contabilidade: Manuais": {
-        "atributo": "usuariobasicoseiorgao101 - Usuário Básico SEI Ambiente 1 Número 01"
+    "Gestão da Informação: Normatização Interna": {
+        "atributo": "usuariobasicoseiorgao101"
     },
     "Gestão da Informação: Recebimento de Processo Externo": {
-        "atributo": "usuariobasicoseiorgao101 - Usuário Básico SEI Ambiente 1 Número 01"
+        "atributo": "usuariobasicoseiorgao101"
     },
-    "Acompanhamento Legislativo: Câmara dos Deputados": {
-        "atributo": "usuariobasicoseiorgao101 - Usuário Básico SEI Ambiente 1 Número 01"
+    "Gestão da Informação: Gestão Documental": {
+        "atributo": "usuariobasicoseiorgao101"
     },
-    "Finanças: Normatização Interna": {
-        "atributo": "usuariobasicoseiorgao101 - Usuário Básico SEI Ambiente 1 Número 01"
-    }
+    "Material: Inventário de Material Permanente": {
+        "atributo": "usuariobasicoseiorgao101 "
+    },
+    "Gestão de Contrato: Aplicação de Sanção Contratual": {
+    "atributo": "usuariobasicoseiorgao101"
+}
+    
 }
