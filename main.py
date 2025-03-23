@@ -434,7 +434,7 @@ def main():
         log_and_print("Script SEI executado com sucesso!")
         print("\nResumo das atribuições realizadas:")
         for atributo, termos in contadores.items():
-            print(f"\nAtribuições para o atributo '{atributo}':")
+            print(f"\nAtribuições para '{atributo}':")
             for termo, contador in termos.items():
                 print(f"- {contador} atribuições para '{termo}'")
         print("="*50)
