@@ -1,18 +1,17 @@
 {
+    "Gestão da Informação: Gestão Documental": {
+        "atributo": "usuariobasicoseiorgao101"
+    },
     "Gestão da Informação: Normatização Interna": {
         "atributo": "usuariobasicoseiorgao101"
     },
     "Gestão da Informação: Recebimento de Processo Externo": {
-        "atributo": "usuariobasicoseiorgao101"
-    },
-    "Gestão da Informação: Gestão Documental": {
-        "atributo": "usuariobasicoseiorgao101"
+        "atributo": "usuario1"
     },
     "Material: Inventário de Material Permanente": {
-        "atributo": "usuariobasicoseiorgao101 "
+        "atributo": "ORGAO1"
     },
-    "Gestão de Contrato: Aplicação de Sanção Contratual": {
-    "atributo": "usuariobasicoseiorgao101"
-}
-    
+    "Gestão e Controle: Executar Auditoria Interna": {
+        "atributo": "ORGAO1"
+    }
 }

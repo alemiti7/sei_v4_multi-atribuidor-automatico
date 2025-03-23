@@ -164,10 +164,14 @@ def processar_pagina_atual(driver, termos_acoes, contadores, contadores_pagina):
     """Processa a página atual com retentativas."""
     wait = WebDriverWait(driver, 10)
     wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "table.infraTable")))
+    
     # Resetar contadores da página
-    for termo in contadores_pagina:
-        contadores_pagina[termo] = 0
+    for atributo in contadores_pagina:
+        for termo in contadores_pagina[atributo]:
+            contadores_pagina[atributo][termo] = 0
+    
     for termo_busca, acao in termos_acoes.items():
+        atributo = acao["atributo"]
         logging.info(f"Procurando por: {termo_busca}")
         xpath_termo = f"//td[contains(text(), '{termo_busca}')]"
         celulas_termo = driver.find_elements(By.XPATH, xpath_termo)
@@ -200,7 +204,7 @@ def processar_pagina_atual(driver, termos_acoes, contadores, contadores_pagina):
                         time.sleep(0.5)  # Fallback para time.sleep
                     
                     if checkbox.is_selected():
-                        contadores_pagina[termo_busca] += 1
+                        contadores_pagina[atributo][termo_busca] += 1
                     else:
                         log_and_print(f"Checkbox não foi selecionado para: {termo_busca}")
                 except Exception as e:
@@ -209,9 +213,10 @@ def processar_pagina_atual(driver, termos_acoes, contadores, contadores_pagina):
             except Exception as e:
                 log_and_print(f"Erro ao processar linha: {str(e)}")
                 continue
-        if contadores_pagina[termo_busca] > 0:
+        
+        if contadores_pagina[atributo][termo_busca] > 0:
             realizar_atribuicao(driver, acao)
-            contadores[termo_busca] += contadores_pagina[termo_busca]
+            contadores[atributo][termo_busca] += contadores_pagina[atributo][termo_busca]
 
 
 @retry_operation(max_attempts=2, delay=1)
@@ -279,8 +284,18 @@ def realizar_atribuicao(driver, acao):
 
 def realizar_atribuicoes(driver, termos_acoes):
     """Realiza as atribuições em todas as páginas com gestão de erros."""
-    contadores = {termo: 0 for termo in termos_acoes}
-    contadores_pagina = {termo: 0 for termo in termos_acoes}
+    contadores = {}
+    contadores_pagina = {}
+    
+    # Inicializar contadores por atributo
+    for termo, acao in termos_acoes.items():
+        atributo = acao["atributo"]
+        if atributo not in contadores:
+            contadores[atributo] = {}
+            contadores_pagina[atributo] = {}
+        contadores[atributo][termo] = 0
+        contadores_pagina[atributo][termo] = 0
+    
     pagina_atual = 1
     while True:
         try:
@@ -418,8 +433,10 @@ def main():
         print(obter_data_atual_formatada())
         log_and_print("Script SEI executado com sucesso!")
         print("\nResumo das atribuições realizadas:")
-        for termo, contador in contadores.items():
-            print(f"- {contador} atribuições para '{termo}'")
+        for atributo, termos in contadores.items():
+            print(f"\nAtribuições para o atributo '{atributo}':")
+            for termo, contador in termos.items():
+                print(f"- {contador} atribuições para '{termo}'")
         print("="*50)
     except Exception as e:
         log_and_print(f"Erro durante a execução: {str(e)}")
