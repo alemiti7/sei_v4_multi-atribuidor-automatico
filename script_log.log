@@ -1,549 +1,105 @@
-28/01/2025 22:26 - INFO - Login realizado com sucesso
-28/01/2025 22:26 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-28/01/2025 22:26 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-28/01/2025 22:26 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-28/01/2025 22:26 - INFO - 
+23/03/2025 18:50 - INFO - Termo: Gestão da Informação: Gestão Documental, Atributo: usuariobasicoseiorgao101
+23/03/2025 18:50 - INFO - Termo: Gestão da Informação: Normatização Interna, Atributo: usuariobasicoseiorgao101
+23/03/2025 18:50 - INFO - Termo: Gestão da Informação: Recebimento de Processo Externo, Atributo: usuario1
+23/03/2025 18:50 - INFO - Termo: Material: Inventário de Material Permanente, Atributo: ORGAO1
+23/03/2025 18:50 - INFO - Termo: Gestão e Controle: Executar Auditoria Interna, Atributo: ORGAO1
+23/03/2025 18:51 - INFO - 
+23/03/2025 18:51 - INFO - ===== Logs de Domingo, 23 de Março de 2025, às 18:51:26 =====
+23/03/2025 18:51 - INFO - Iniciando script SEI...
+23/03/2025 18:51 - INFO - Login realizado com sucesso
+23/03/2025 18:51 - INFO - 
 Processando página 1
-28/01/2025 22:26 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:26 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:26 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:26 - INFO - 
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
 Processando página 2
-28/01/2025 22:26 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:26 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:26 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:26 - INFO - 
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
 Processando página 3
-28/01/2025 22:26 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:26 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:26 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:27 - INFO - 
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
 Processando página 4
-28/01/2025 22:27 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:27 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:27 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:27 - INFO - 
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
 Processando página 5
-28/01/2025 22:27 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:27 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:27 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:27 - INFO - 
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
 Processando página 6
-28/01/2025 22:27 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:27 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:27 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:27 - INFO - 
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
 Processando página 7
-28/01/2025 22:27 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:27 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:27 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:27 - INFO - 
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
 Processando página 8
-28/01/2025 22:27 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:27 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:27 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:27 - INFO - 
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
 Processando página 9
-28/01/2025 22:27 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:27 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:27 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:27 - INFO - 
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
 Processando página 10
-28/01/2025 22:27 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:27 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:27 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:27 - INFO - Última página alcançada
-28/01/2025 22:27 - INFO - Script SEI executado com sucesso!
-28/01/2025 22:43 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106f72490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6322d8b72cef33c9909d10b765c12e4b
-28/01/2025 22:43 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106f31cd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6322d8b72cef33c9909d10b765c12e4b
-28/01/2025 22:43 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106f31e00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6322d8b72cef33c9909d10b765c12e4b
-28/01/2025 22:43 - INFO - Login realizado com sucesso
-28/01/2025 22:43 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-28/01/2025 22:43 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-28/01/2025 22:43 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-28/01/2025 22:43 - INFO - 
-Processando página 1
-28/01/2025 22:43 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:43 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:43 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:43 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11111a490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/08aa98277320da16e91f2754413b948e
-28/01/2025 22:43 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1110d5a70>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/08aa98277320da16e91f2754413b948e
-28/01/2025 22:43 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1110d5cd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/08aa98277320da16e91f2754413b948e
-28/01/2025 22:43 - INFO - 
-Processando página 2
-28/01/2025 22:43 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:43 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:43 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:44 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10244e850>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/48adb84ed6856ec7a0f60590b2b5b9ab
-28/01/2025 22:44 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10244e490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/48adb84ed6856ec7a0f60590b2b5b9ab
-28/01/2025 22:44 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10240d810>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/48adb84ed6856ec7a0f60590b2b5b9ab
-28/01/2025 22:44 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106b5a5d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7e5838a61efbad02e3247d5bd87c9a6/element
-28/01/2025 22:44 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106b5aad0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7e5838a61efbad02e3247d5bd87c9a6/element
-28/01/2025 22:44 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106b15810>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7e5838a61efbad02e3247d5bd87c9a6/element
-28/01/2025 22:44 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106b46690>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7e5838a61efbad02e3247d5bd87c9a6
-28/01/2025 22:44 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106b4d9d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7e5838a61efbad02e3247d5bd87c9a6
-28/01/2025 22:44 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106b4dd00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7e5838a61efbad02e3247d5bd87c9a6
-28/01/2025 22:45 - INFO - Login realizado com sucesso
-28/01/2025 22:45 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-28/01/2025 22:45 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-28/01/2025 22:45 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-28/01/2025 22:45 - INFO - 
-Processando página 1
-28/01/2025 22:45 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:45 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:45 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:45 - INFO - 
-Processando página 2
-28/01/2025 22:45 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:45 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:45 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:45 - INFO - 
-Processando página 3
-28/01/2025 22:45 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:45 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:45 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:45 - INFO - 
-Processando página 4
-28/01/2025 22:45 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:45 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:45 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:45 - INFO - 
-Processando página 5
-28/01/2025 22:45 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:45 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:45 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:46 - INFO - 
-Processando página 6
-28/01/2025 22:46 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:46 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:46 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:46 - INFO - 
-Processando página 7
-28/01/2025 22:46 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:46 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:46 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:46 - INFO - 
-Processando página 8
-28/01/2025 22:46 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:46 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:46 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:46 - INFO - 
-Processando página 9
-28/01/2025 22:46 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:46 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:46 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:46 - INFO - 
-Processando página 10
-28/01/2025 22:46 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 22:46 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 22:46 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 22:46 - INFO - Última página alcançada
-28/01/2025 22:46 - INFO - Script SEI executado com sucesso!
-28/01/2025 22:50 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a6525d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/660949a2944f9fd27f5ffac9db87affe/element
-28/01/2025 22:50 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a652ad0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/660949a2944f9fd27f5ffac9db87affe/element
-28/01/2025 22:50 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a60d810>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/660949a2944f9fd27f5ffac9db87affe/element
-28/01/2025 22:50 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a63e450>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/660949a2944f9fd27f5ffac9db87affe
-28/01/2025 22:50 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a645ae0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/660949a2944f9fd27f5ffac9db87affe
-28/01/2025 22:50 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a645e10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/660949a2944f9fd27f5ffac9db87affe
-28/01/2025 23:01 - INFO - Login realizado com sucesso
-28/01/2025 23:01 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-28/01/2025 23:01 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-28/01/2025 23:01 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-28/01/2025 23:01 - INFO - 
-Processando página 1
-28/01/2025 23:01 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:01 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:01 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:01 - INFO - 
-Processando página 2
-28/01/2025 23:01 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:01 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:01 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:01 - INFO - 
-Processando página 3
-28/01/2025 23:01 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:01 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:01 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:01 - INFO - 
-Processando página 4
-28/01/2025 23:01 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:01 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:01 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:01 - INFO - 
-Processando página 5
-28/01/2025 23:01 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:01 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:01 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:01 - INFO - 
-Processando página 6
-28/01/2025 23:01 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:01 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:01 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:01 - INFO - 
-Processando página 7
-28/01/2025 23:01 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:01 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:01 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:01 - INFO - 
-Processando página 8
-28/01/2025 23:01 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:01 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:01 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:01 - INFO - 
-Processando página 9
-28/01/2025 23:01 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:01 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:01 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:02 - INFO - 
-Processando página 10
-28/01/2025 23:02 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-28/01/2025 23:02 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-28/01/2025 23:02 - INFO - Procurando por: Licitação: Consulta
-28/01/2025 23:02 - INFO - Última página alcançada
-28/01/2025 23:02 - INFO - Script SEI executado com sucesso!
-29/01/2025 08:34 - INFO - Login realizado com sucesso
-29/01/2025 08:34 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:34 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:34 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:34 - INFO - 
-Processando página 1
-29/01/2025 08:34 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:34 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:34 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - 
-Processando página 2
-29/01/2025 08:35 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:35 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:35 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - 
-Processando página 3
-29/01/2025 08:35 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:35 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:35 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - 
-Processando página 4
-29/01/2025 08:35 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:35 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:35 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - 
-Processando página 5
-29/01/2025 08:35 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:35 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:35 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - 
-Processando página 6
-29/01/2025 08:35 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:35 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:35 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - 
-Processando página 7
-29/01/2025 08:35 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:35 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:35 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - 
-Processando página 8
-29/01/2025 08:35 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:35 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:35 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - 
-Processando página 9
-29/01/2025 08:35 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:35 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:35 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - 
-Processando página 10
-29/01/2025 08:35 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:35 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:35 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:35 - INFO - Última página alcançada
-29/01/2025 08:35 - INFO - Script SEI executado com sucesso!
-29/01/2025 08:41 - INFO - Login realizado com sucesso
-29/01/2025 08:41 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:41 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:41 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:41 - INFO - 
-Processando página 1
-29/01/2025 08:41 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:41 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:41 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:41 - INFO - 
-Processando página 2
-29/01/2025 08:41 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:41 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:41 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:41 - INFO - 
-Processando página 3
-29/01/2025 08:41 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:41 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:41 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:41 - INFO - 
-Processando página 4
-29/01/2025 08:41 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:41 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:41 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:41 - INFO - 
-Processando página 5
-29/01/2025 08:41 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:41 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:41 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:41 - INFO - 
-Processando página 6
-29/01/2025 08:41 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:41 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:41 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:41 - INFO - 
-Processando página 7
-29/01/2025 08:41 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:41 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:41 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:41 - INFO - 
-Processando página 8
-29/01/2025 08:41 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:41 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:41 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:41 - INFO - 
-Processando página 9
-29/01/2025 08:41 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:41 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:41 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:42 - INFO - 
-Processando página 10
-29/01/2025 08:42 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:42 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:42 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:42 - INFO - Última página alcançada
-29/01/2025 08:42 - INFO - Script SEI executado com sucesso!
-29/01/2025 08:48 - INFO - 
-29/01/2025 08:48 - INFO - ===== Logs do dia =====
-29/01/2025 08:48 - INFO - Login realizado com sucesso
-29/01/2025 08:48 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:48 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:48 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:48 - INFO - 
-Processando página 1
-29/01/2025 08:48 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:48 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:48 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:48 - INFO - 
-Processando página 2
-29/01/2025 08:48 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:48 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:48 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:48 - INFO - 
-Processando página 3
-29/01/2025 08:48 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:48 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:48 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:48 - INFO - 
-Processando página 4
-29/01/2025 08:48 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:48 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:48 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:48 - INFO - 
-Processando página 5
-29/01/2025 08:48 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:48 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:48 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:48 - INFO - 
-Processando página 6
-29/01/2025 08:48 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:48 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:48 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:48 - INFO - 
-Processando página 7
-29/01/2025 08:48 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:48 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:48 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:48 - INFO - 
-Processando página 8
-29/01/2025 08:48 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:48 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:48 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:49 - INFO - 
-Processando página 9
-29/01/2025 08:49 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:49 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:49 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:49 - INFO - 
-Processando página 10
-29/01/2025 08:49 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:49 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:49 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:49 - INFO - Última página alcançada
-29/01/2025 08:49 - INFO - Script SEI executado com sucesso!
-29/01/2025 08:55 - INFO - 
-29/01/2025 08:55 - INFO - ===== Logs do dia =====
-29/01/2025 08:55 - INFO - Login realizado com sucesso
-29/01/2025 08:55 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:55 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:55 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-29/01/2025 08:55 - INFO - 
-Processando página 1
-29/01/2025 08:55 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:55 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:55 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:55 - INFO - 
-Processando página 2
-29/01/2025 08:55 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:55 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:55 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:55 - INFO - 
-Processando página 3
-29/01/2025 08:55 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:55 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:55 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:55 - INFO - 
-Processando página 4
-29/01/2025 08:55 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:55 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:55 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:55 - INFO - 
-Processando página 5
-29/01/2025 08:55 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:55 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:55 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:55 - INFO - 
-Processando página 6
-29/01/2025 08:55 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:55 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:55 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:55 - INFO - 
-Processando página 7
-29/01/2025 08:55 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:55 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:55 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:55 - INFO - 
-Processando página 8
-29/01/2025 08:55 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:55 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:55 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:55 - INFO - 
-Processando página 9
-29/01/2025 08:55 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:55 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:55 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:56 - INFO - 
-Processando página 10
-29/01/2025 08:56 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 08:56 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 08:56 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 08:56 - INFO - Última página alcançada
-29/01/2025 08:56 - INFO - Script SEI executado com sucesso!
-29/01/2025 09:02 - INFO - Conectando ao SEI em: https://sei.orgao1.tramita.processoeletronico.gov.br/
-29/01/2025 09:05 - INFO - Conectando ao SEI em: https://sei.orgao1.tramita.processoeletronico.gov.br/
-29/01/2025 09:09 - INFO - 
-29/01/2025 09:09 - INFO - ===== Logs do dia =====
-29/01/2025 09:09 - INFO - Login realizado com sucesso
-29/01/2025 09:09 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-29/01/2025 09:09 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-29/01/2025 09:09 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-29/01/2025 09:09 - INFO - 
-Processando página 1
-29/01/2025 09:09 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:09 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:09 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:09 - INFO - 
-Processando página 2
-29/01/2025 09:09 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:09 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:09 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:09 - INFO - 
-Processando página 3
-29/01/2025 09:09 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:09 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:09 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:09 - INFO - 
-Processando página 4
-29/01/2025 09:09 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:09 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:09 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:09 - INFO - 
-Processando página 5
-29/01/2025 09:09 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:09 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:09 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:09 - INFO - 
-Processando página 6
-29/01/2025 09:09 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:09 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:09 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:09 - INFO - 
-Processando página 7
-29/01/2025 09:09 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:09 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:09 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:10 - INFO - 
-Processando página 8
-29/01/2025 09:10 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:10 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:10 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:10 - INFO - 
-Processando página 9
-29/01/2025 09:10 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:10 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:10 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:10 - INFO - 
-Processando página 10
-29/01/2025 09:10 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:10 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:10 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:10 - INFO - Última página alcançada
-29/01/2025 09:10 - INFO - Script SEI executado com sucesso!
-29/01/2025 09:18 - INFO - 
-29/01/2025 09:18 - INFO - ===== Logs do dia =====
-29/01/2025 09:18 - INFO - Login realizado com sucesso
-29/01/2025 09:18 - INFO - Termo: Demanda Externa: Orgãos Governamentais Municipais, Atributo: usuariobasicoseiorgao101
-29/01/2025 09:18 - INFO - Termo: Gestão e Controle: Coordenação - Demandas Externas, Atributo: usuariobasicoseiorgao101
-29/01/2025 09:18 - INFO - Termo: Licitação: Consulta, Atributo: usuariobasicoseiorgao101
-29/01/2025 09:18 - INFO - 
-Processando página 1
-29/01/2025 09:18 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:18 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:18 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:18 - INFO - 
-Processando página 2
-29/01/2025 09:18 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:18 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:18 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:18 - INFO - 
-Processando página 3
-29/01/2025 09:18 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:18 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:18 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:18 - INFO - 
-Processando página 4
-29/01/2025 09:18 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:18 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:18 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:18 - INFO - 
-Processando página 5
-29/01/2025 09:18 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:18 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:18 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:19 - INFO - 
-Processando página 6
-29/01/2025 09:19 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:19 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:19 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:19 - INFO - 
-Processando página 7
-29/01/2025 09:19 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:19 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:19 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:19 - INFO - 
-Processando página 8
-29/01/2025 09:19 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:19 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:19 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:19 - INFO - 
-Processando página 9
-29/01/2025 09:19 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:19 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:19 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:19 - INFO - 
-Processando página 10
-29/01/2025 09:19 - INFO - Procurando por: Demanda Externa: Orgãos Governamentais Municipais
-29/01/2025 09:19 - INFO - Procurando por: Gestão e Controle: Coordenação - Demandas Externas
-29/01/2025 09:19 - INFO - Procurando por: Licitação: Consulta
-29/01/2025 09:19 - INFO - Última página alcançada
-29/01/2025 09:19 - INFO - Script SEI executado com sucesso!
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:51 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:51 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:51 - INFO - 
+Processando página 11
+23/03/2025 18:51 - INFO - Procurando por: Gestão da Informação: Gestão Documental
+23/03/2025 18:53 - INFO - Iniciando processo de atribuição
+23/03/2025 18:53 - INFO - Botão de atribuição clicado
+23/03/2025 18:53 - INFO - Opção usuariobasicoseiorgao101 selecionada
+23/03/2025 18:53 - INFO - Procurando por: Gestão da Informação: Normatização Interna
+23/03/2025 18:53 - INFO - Iniciando processo de atribuição
+23/03/2025 18:53 - INFO - Botão de atribuição clicado
+23/03/2025 18:53 - INFO - Opção usuariobasicoseiorgao101 selecionada
+23/03/2025 18:53 - INFO - Procurando por: Gestão da Informação: Recebimento de Processo Externo
+23/03/2025 18:53 - INFO - Iniciando processo de atribuição
+23/03/2025 18:53 - INFO - Botão de atribuição clicado
+23/03/2025 18:53 - INFO - Opção usuario1 selecionada
+23/03/2025 18:53 - INFO - Procurando por: Material: Inventário de Material Permanente
+23/03/2025 18:53 - INFO - Iniciando processo de atribuição
+23/03/2025 18:53 - INFO - Botão de atribuição clicado
+23/03/2025 18:53 - INFO - Opção ORGAO1 selecionada
+23/03/2025 18:53 - INFO - Procurando por: Gestão e Controle: Executar Auditoria Interna
+23/03/2025 18:53 - INFO - Iniciando processo de atribuição
+23/03/2025 18:53 - INFO - Botão de atribuição clicado
+23/03/2025 18:53 - INFO - Opção ORGAO1 selecionada
+23/03/2025 18:53 - INFO - Última página alcançada
+23/03/2025 18:53 - INFO - Script SEI executado com sucesso!
+23/03/2025 18:53 - INFO - Logout realizado com sucesso
+23/03/2025 18:54 - INFO - Driver fechado com sucesso
