@@ -6,10 +6,6 @@ Elaborado no Ambiente de teste público SEI versão 4.0.11, https://sei.orgao1.t
 Dados de acesso fornecidos pelo site <a href="https://www.gov.br/gestao/pt-br/assuntos/processo-eletronico-nacional/noticias/2023/tramita-gov-br-lanca-quatro-novos-ambientes-de-teste-para-orgaos-e-entidades-em-processo-de-implantacao-da-plataforma">Tramita GOV.BR - Ministério da Gestão e da Inovação de Serviços Públicos</a>
 
 
-=== VERSÃO DESTE SCRIPT 1.0.2 ===
-
-
-
 https://github.com/user-attachments/assets/7361f5fa-e40d-433d-b9cf-94f7f45eafed
 
 
