@@ -137,7 +137,7 @@ Formas de contribuir:
 
 ## ✒️ Autores
 
-* ** Alexandre Mitsuru ** - *Desenvolvimento Inicial* - https://github.com/alemiti7
+* ** Alexandre Mitsuru Nikaitow ** - *Desenvolvimento Inicial* - https://github.com/alemiti7
 * ** Luis Carlos ** -*Colaborador técnico* - https://github.com/luismelloleite
 
 📞 Contato
