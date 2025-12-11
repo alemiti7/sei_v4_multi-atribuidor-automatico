@@ -1,4 +1,4 @@
-# SEI versão 4 Multi-atribuidor automático de processos
+# SEI versão 4/5 Multi-atribuidor automático de processos
 Este projeto automatiza a atribuição de processos no Sistema Eletrônico de Informações SEI 4.0.11 e SEI 5.x.x
 
 Elaborado no Ambiente de teste público SEI versão 4.0.11 e compatível com o SEI 5.x.x , https://sei.orgao1.tramita.processoeletronico.gov.br/
