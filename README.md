@@ -142,8 +142,8 @@ Formas de contribuir:
 
 📞 Contato
 Alexandre
-📧 alemiti@gmail.com
-⌨️ com ❤️ por [@alemiti7]([https://github.com/alemiti7]) 😊
+alemiti@gmail.com
+
 
 ## 📄 Licença
 
