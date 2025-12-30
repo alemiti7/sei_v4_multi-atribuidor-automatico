@@ -1,13 +1,16 @@
-# SEI Multi-atribuidor Automático (Playwright)
+# Multi-atribuidor automático de processos SEI
+-- Compatível SEI V4.0.X e V5.0 --
 
 Este projeto automatiza a atribuição de processos no Sistema Eletrônico de Informações (SEI). 
+
+
 
 A versão **v2.0** marca uma evolução tecnológica significativa, substituindo o antigo motor Selenium pelo **Playwright**, garantindo execuções assíncronas, mais rápidas e com maior estabilidade.
 
 
 ## 🚀 Modernizações
 
-Em comparação com a versão original baseada em Selenium, as principais melhorias são:
+Em comparação com a versão [v1.03](https://github.com/alemiti7/sei_v4_multi-atribuidor-automatico/releases) baseada em Selenium, as principais melhorias são:
 
 * **Motor Playwright (Async):** Migração para engine assíncrona, com maior velocidade e menor consumo de memória.
 * **Resiliência:** Lógica de retentativas automática para superar lentidões e timeouts do SEI.
@@ -87,27 +90,6 @@ O script realiza as seguintes operações:
 5. Gera um relatório das atribuições realizadas
 6. Realiza logout do sistema
 
-## ⚠️ Elementos JavaScript
-
-O script interage com elementos JavaScript em alguns pontos específicos:
-
-1. Navegação entre páginas:
-```html
-<a id="lnkInfraProximaPaginaInferior" href="javascript:void(0);" onclick="infraAcaoPaginar('+',0,'Infra', null);">
-```
-
-2. Interações via Selenium:
-```python
-driver.execute_script("arguments[0].scrollIntoView(true);", checkbox)
-driver.execute_script("arguments[0].click();", checkbox)
-```
-
-## 🛠️ Tecnologias Utilizadas
-
-- Python
-- Selenium WebDriver
-- JavaScript (para interações com a página)
-- Chrome WebDriver
 
 ## 📊 Logs e Monitoramento
 

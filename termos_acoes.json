@@ -1,17 +1,17 @@
 {
-    "Gestão da Informação: Gestão Documental": {
+    "Pessoal: Férias - Solicitação": {
         "atributo": "usuariobasicoseiorgao101"
     },
-    "Gestão da Informação: Normatização Interna": {
+    "Pessoal: Avaliação de Desempenho Individual": {
         "atributo": "usuariobasicoseiorgao101"
     },
     "Gestão da Informação: Recebimento de Processo Externo": {
         "atributo": "usuario1"
     },
-    "Material: Inventário de Material Permanente": {
+    "Pessoal: Contabilidade: DIRF": {
         "atributo": "ORGAO1"
     },
-    "Gestão e Controle: Executar Auditoria Interna": {
+    "Pessoal: Auxílio Doença": {
         "atributo": "ORGAO1"
     }
 }
