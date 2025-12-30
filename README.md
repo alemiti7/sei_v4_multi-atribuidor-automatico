@@ -4,17 +4,16 @@ Este projeto automatiza a atribuição de processos no Sistema Eletrônico de In
 
 A versão **v2.0** marca uma evolução tecnológica significativa, substituindo o antigo motor Selenium pelo **Playwright**, garantindo execuções assíncronas, mais rápidas e com maior estabilidade.
 
-## 🚀 Modernizações (v07 vs. Versões Selenium)
+## 🚀 Modernizações
 
 Em comparação com a versão original baseada em Selenium, as principais melhorias são:
 
-* **Motor Playwright (Async):** Migração para uma engine moderna e assíncrona (`asyncio`), que reduz drasticamente o consumo de memória e aumenta a velocidade de interação.
-* **Atribuição por ID Flexível:** O script agora identifica o usuário destinatário apenas pelo ID inicial (ex: `usuario1`), sem a necessidade de manter o nome completo ou sigla exata no arquivo JSON.
-* **Sistema de Logs Aprimorado:** Geração de um arquivo `script_log.log` estilizado seguindo o padrão visual: `DD/MM/AAAA HH:MM – NIVEL – Mensagem`.
-* **Resumo de Execução no Terminal:** Ao final de cada ciclo, o terminal exibe um resumo limpo com a data por extenso e o quantitativo de processos atribuídos por termo e usuário.
-* **Resiliência a Timeouts:** Implementação de lógica de retentativas e tratamento de erros específicos para o seletor de atribuição, evitando interrupções em momentos de lentidão do sistema.
-* **Código Otimizado:** Refatoração completa para conformidade com padrões PEP8 (Ruff/Lint), eliminando avisos de variáveis não utilizadas e capturas de exceções genéricas.
-
+* **Motor Playwright (Async):** Migração para engine assíncrona, com maior velocidade e menor consumo de memória.
+* **ID Flexível:** Identificação do usuário apenas pelo ID inicial, sem exigir nomes completos no JSON.
+* **Logs Padronizados:** Arquivo `script_log.log` formatado com data e hora conforme o padrão visual.
+* **Resumo no Terminal:** Exibição clara do total de processos atribuídos por usuário ao final da execução.
+* **Resiliência:** Lógica de retentativas automática para superar lentidões e timeouts do SEI.
+* **Código Limpo:** Refatoração completa (PEP8/Lint) para maior estabilidade e manutenção.
 
 
 ## 📋 Pré-requisitos
@@ -126,8 +125,6 @@ O script fornece logs detalhados de suas operações gerando o arquivo `script_l
 - Data atual e resumo final das operações realizadas serão exibidas no terminal:
 
 <img width="1043" height="129" alt="image" src="https://github.com/user-attachments/assets/2831246c-4e2e-41c5-83b8-4115bfbf7a0c" />
-
-
 
 
 ## 🤝 Contribuindo
