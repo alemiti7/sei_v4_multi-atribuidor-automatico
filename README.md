@@ -90,27 +90,6 @@ O script realiza as seguintes operações:
 5. Gera um relatório das atribuições realizadas
 6. Realiza logout do sistema
 
-## ⚠️ Elementos JavaScript
-
-O script interage com elementos JavaScript em alguns pontos específicos:
-
-1. Navegação entre páginas:
-```html
-<a id="lnkInfraProximaPaginaInferior" href="javascript:void(0);" onclick="infraAcaoPaginar('+',0,'Infra', null);">
-```
-
-2. Interações via Selenium:
-```python
-driver.execute_script("arguments[0].scrollIntoView(true);", checkbox)
-driver.execute_script("arguments[0].click();", checkbox)
-```
-
-## 🛠️ Tecnologias Utilizadas
-
-- Python
-- Selenium WebDriver
-- JavaScript (para interações com a página)
-- Chrome WebDriver
 
 ## 📊 Logs e Monitoramento
 
