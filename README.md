@@ -1,4 +1,4 @@
-# SEI Multi-atribuidor Automático (Playwright)
+# Multi-atribuidor automático de processos SEI
 
 Este projeto automatiza a atribuição de processos no Sistema Eletrônico de Informações (SEI). 
 
