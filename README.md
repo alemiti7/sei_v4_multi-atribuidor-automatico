@@ -4,6 +4,7 @@ Este projeto automatiza a atribuição de processos no Sistema Eletrônico de In
 
 A versão **v2.0** marca uma evolução tecnológica significativa, substituindo o antigo motor Selenium pelo **Playwright**, garantindo execuções assíncronas, mais rápidas e com maior estabilidade.
 
+
 ## 🚀 Modernizações
 
 Em comparação com a versão original baseada em Selenium, as principais melhorias são:
@@ -38,6 +39,7 @@ Antes de executar o script, certifique-se de ter instalado:
     USERNAME=seu_usuario
     PASSWORD=sua_senha
     ```
+
 
 ## 📊 Estrutura de Operação
 
