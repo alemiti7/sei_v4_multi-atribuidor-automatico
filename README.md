@@ -10,7 +10,7 @@ A versão **v2.0** marca uma evolução tecnológica significativa, substituindo
 
 ## 🚀 Modernizações
 
-Em comparação com a versão original baseada em Selenium, as principais melhorias são:
+Em comparação com a versão V1.03 baseada em Selenium, as principais melhorias são:
 
 * **Motor Playwright (Async):** Migração para engine assíncrona, com maior velocidade e menor consumo de memória.
 * **Resiliência:** Lógica de retentativas automática para superar lentidões e timeouts do SEI.
