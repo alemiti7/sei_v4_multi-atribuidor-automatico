@@ -9,8 +9,7 @@ A versão **v2.0** marca uma evolução tecnológica significativa, substituindo
 Em comparação com a versão original baseada em Selenium, as principais melhorias são:
 
 * **Motor Playwright (Async):** Migração para engine assíncrona, com maior velocidade e menor consumo de memória.
-* **ID Flexível:** Identificação do usuário apenas pelo ID inicial, sem exigir nomes completos no JSON.
-* **Logs Padronizados:** Arquivo `script_log.log` formatado com data e hora conforme o padrão visual.
+* **Logs Padronizados:** Arquivo `script_log.log` formatado com data e hora conforme o padrão visual.  
 * **Resumo no Terminal:** Exibição clara do total de processos atribuídos por usuário ao final da execução.
 * **Resiliência:** Lógica de retentativas automática para superar lentidões e timeouts do SEI.
 * **Código Limpo:** Refatoração completa (PEP8/Lint) para maior estabilidade e manutenção.
