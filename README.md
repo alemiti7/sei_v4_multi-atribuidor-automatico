@@ -1,6 +1,7 @@
 # Multi-atribuidor automático de processos SEI
 
 Este projeto automatiza a atribuição de processos no Sistema Eletrônico de Informações (SEI). 
+Compatível SEI V4.0.X e V5.0
 
 A versão **v2.0** marca uma evolução tecnológica significativa, substituindo o antigo motor Selenium pelo **Playwright**, garantindo execuções assíncronas, mais rápidas e com maior estabilidade.
 
