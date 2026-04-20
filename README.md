@@ -1,9 +1,13 @@
 # Multi-atribuidor automático de processos SEI
 -- Compatível SEI V4.0.X e V5.0 --
 
-Este projeto automatiza a atribuição de processos no Sistema Eletrônico de Informações (SEI). 
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-Async-2EAD33?style=flat&logo=playwright&logoColor=white)
+![python-dotenv](https://img.shields.io/badge/python--dotenv-config-ECD53F?style=flat&logo=dotenv&logoColor=black)
+![Licença](https://img.shields.io/badge/Licença-MIT-green?style=flat)
+![Versão](https://img.shields.io/badge/Versão-2.0-blue?style=flat)
 
-
+Este projeto automatiza a atribuição de processos no Sistema Eletrônico de Informações (SEI).
 
 Esta versão **v2.0** substitui o motor Selenium pelo **Playwright**, garantindo execuções assíncronas, mais rápidas e com maior estabilidade.
 
@@ -38,7 +42,7 @@ Antes de executar o script, certifique-se de ter instalado:
 
 3.  Configure o arquivo `.env` na raiz do projeto com suas credenciais:
     ```env
-    SEI_URL=[https://seu-link-do-sei.gov.br](https://seu-link-do-sei.gov.br)
+    SEI_URL=https://seu-link-do-sei.gov.br
     USERNAME=seu_usuario
     PASSWORD=sua_senha
     ```
@@ -100,9 +104,6 @@ O script fornece logs detalhados de suas operações gerando o arquivo `script_l
 
 <img width="1418" height="388" alt="image" src="https://github.com/user-attachments/assets/23161d44-ffb8-4358-a8b6-03bc85b66903" />
 
-
-
-
 - Data atual e resumo final das operações realizadas serão exibidas no terminal:
 
 <img width="1043" height="129" alt="image" src="https://github.com/user-attachments/assets/2831246c-4e2e-41c5-83b8-4115bfbf7a0c" />
@@ -110,20 +111,22 @@ O script fornece logs detalhados de suas operações gerando o arquivo `script_l
 
 ## 🤝 Contribuindo
 
-Formas de contribuir:
-- Sugerir melhorias e reportar bugs
-- Compartilhar scripts de automação do SEI!
+Contribuições são bem-vindas! Veja como participar:
+
+- 🐛 Reporte bugs abrindo uma [issue](../../issues)
+- 💡 Sugira melhorias via [pull request](../../pulls)
+- 🤖 Compartilhe seus scripts de automação do SEI!
 
 ## ✒️ Autores
 
-* ** Alexandre Mitsuru Nikaitow ** - *Desenvolvimento Inicial* - https://github.com/alemiti7
-* ** Luis Carlos ** -*Colaborador técnico* - https://github.com/luismelloleite
+| Autor | Papel |
+|---|---|
+| [Alexandre Mitsuru Nikaitow](https://github.com/alemiti7) | Desenvolvimento Inicial |
+| [Luis Carlos](https://github.com/luismelloleite) | Colaborador Técnico |
 
-📞 Contato
-Alexandre
-alemiti@gmail.com
+📞 Contato: [alemiti@gmail.com](mailto:alemiti@gmail.com)
 
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
+Este projeto está sob a licença MIT — veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
